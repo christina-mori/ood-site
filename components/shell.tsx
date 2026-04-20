@@ -13,7 +13,7 @@ export function Shell(props: {
 }) {
   const navItems =
     props.navMode === "minimal"
-      ? siteNav.filter((item) => ["/divination", "/collection", "/profile"].includes(item.href))
+      ? siteNav.filter((item) => ["/", "/profile", "/about"].includes(item.href))
       : siteNav;
 
   return (

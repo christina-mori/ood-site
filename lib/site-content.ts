@@ -33,10 +33,7 @@ export type ArtifactRecord = {
 
 export const siteNav = [
   { href: "/", label: "Home" },
-  { href: "/divination", label: "Divination" },
   { href: "/shop", label: "Shop" },
-  { href: "/collection", label: "Collection" },
-  { href: "/universe", label: "Universe" },
   { href: "/profile", label: "Profile" },
   { href: "/about", label: "About" },
 ] as const;
@@ -81,7 +78,7 @@ export const shopProducts: ProductCard[] = [
     slug: "relationship-deep-dive",
     title: "Relationship Deep Dive",
     type: "report",
-    priceLabel: "$7.99",
+    priceLabel: "$2.99",
     description: "A paid extension of the free cross-over report focused on attraction, intimacy, and emotional patterning.",
     mood: "attraction / reciprocity / tension",
     live: true,
@@ -90,27 +87,29 @@ export const shopProducts: ProductCard[] = [
     slug: "career-deep-dive",
     title: "Career Deep Dive",
     type: "report",
-    priceLabel: "$7.99",
+    priceLabel: "$2.99",
     description: "A paid extension focused on visibility, work direction, and how your two systems cooperate under pressure.",
     mood: "work / visibility / momentum",
     live: true,
   },
   {
     slug: "money-deep-dive",
-    title: "Money Deep Dive",
+    title: "Personal Growth",
     type: "report",
-    priceLabel: "$7.99",
-    description: "A paid extension focused on value patterns, exchange behavior, and where hesitation leaks abundance.",
-    mood: "value / exchange / timing",
+    priceLabel: "$2.99",
+    description:
+      "A paid extension focused on self-awareness, internal patterns, and the growth edges asking for your attention right now.",
+    mood: "growth / self-study / momentum",
     live: true,
   },
   {
     slug: "healing-deep-dive",
-    title: "Healing & Personality Deep Dive",
+    title: "Health",
     type: "report",
-    priceLabel: "$7.99",
-    description: "A paid extension focused on coping pattern, self-protection, and the contradictions that shape personality.",
-    mood: "healing / personality / repair",
+    priceLabel: "$2.99",
+    description:
+      "A paid extension focused on energy rhythms, recovery, and the habits that support steadier emotional and physical balance.",
+    mood: "health / recovery / balance",
     live: true,
   },
   {

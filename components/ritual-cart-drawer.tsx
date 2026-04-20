@@ -49,7 +49,7 @@ export function RitualCartDrawer(props: {
                 onChange={setBag}
                 mode="drawer"
                 liveCheckoutHref={props.selected.live ? "/quiz" : "/quiz"}
-                prototypeHref={props.selected.live ? "/collection" : "/collection"}
+                prototypeHref="/shop"
               />
             </div>
           </div>

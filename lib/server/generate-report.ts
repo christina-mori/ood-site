@@ -114,7 +114,6 @@ export async function generateReportFromOrder(orderId: string) {
         birthTime: session.birthTime,
         birthCity: session.birthCity,
         consentEntertainmentDisclaimer: session.consentEntertainmentDisclaimer,
-        email: session.email,
       },
       session.baseProfile.elementDistribution,
     );

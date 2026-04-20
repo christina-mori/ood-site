@@ -1,88 +1,51 @@
-import Link from "next/link";
-
-import { QuickIntake } from "@/components/quick-intake";
+import { HomeQuickIntake } from "@/components/home-quick-intake";
 import { Shell } from "@/components/shell";
 import { TrackView } from "@/components/track-view";
 import { TRACKING_EVENTS } from "@/lib/constants";
 
 export default function Home() {
   return (
-    <Shell className="space-y-10" activeHref="/" navMode="minimal">
+    <Shell className="space-y-8" activeHref="/" navMode="full">
       <TrackView event={TRACKING_EVENTS.landingView} />
 
-      <section className="relative overflow-hidden rounded-[40px] border border-white/10 bg-[radial-gradient(circle_at_top,rgba(95,230,255,0.18),transparent_26%),radial-gradient(circle_at_85%_10%,rgba(255,190,148,0.14),transparent_22%),linear-gradient(180deg,rgba(255,255,255,0.05),rgba(255,255,255,0.02))] px-6 py-8 sm:px-8 sm:py-10 lg:px-10 lg:py-12">
-        <div className="pointer-events-none absolute inset-0 opacity-30 [background-image:linear-gradient(rgba(255,255,255,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.04)_1px,transparent_1px)] [background-size:64px_64px]" />
-        <div className="pointer-events-none absolute left-[-8%] top-[14%] h-52 w-52 rounded-full border border-cyan-200/10 motion-safe:animate-[floatDrift_10s_ease-in-out_infinite]" />
-        <div className="pointer-events-none absolute right-[12%] top-[8%] h-80 w-80 rounded-full border border-white/8" />
-        <div className="pointer-events-none absolute right-[16%] top-[14%] h-52 w-52 rounded-full border border-amber-200/10 motion-safe:animate-[glowPulse_6s_ease-in-out_infinite]" />
+      <section className="relative overflow-hidden rounded-[40px] border border-white/8">
+        <div
+          className="absolute inset-[-10%] bg-cover bg-center opacity-58 scale-[1.08]"
+          style={{ backgroundImage: 'url(/home-hero-bg.jpg)' }}
+        />
+        <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(6,8,16,0.36),rgba(5,7,14,0.74))]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_18%_22%,rgba(255,138,159,0.1),transparent_30%),radial-gradient(circle_at_82%_18%,rgba(126,219,228,0.08),transparent_28%),radial-gradient(circle_at_56%_64%,rgba(253,208,119,0.06),transparent_26%)]" />
+        <div className="absolute inset-0 opacity-12 [background-image:linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] [background-size:72px_72px]" />
+        <div className="absolute inset-x-0 top-0 h-32 bg-[linear-gradient(180deg,rgba(4,7,14,0.42),transparent)]" />
+        <div className="absolute inset-x-0 bottom-0 h-40 bg-[linear-gradient(0deg,rgba(4,7,14,0.58),transparent)]" />
 
-        <div className="relative grid gap-8 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
-          <div className="space-y-5">
-            <p className="text-[11px] uppercase tracking-[0.42em] text-cyan-100/78">
-              O.O.D / Oracle Chamber
-            </p>
-            <h1 className="max-w-xl text-balance font-serif text-6xl leading-[0.88] text-stone-50 sm:text-7xl lg:text-8xl">
-              Begin with the signal.
-            </h1>
-            <p className="max-w-lg text-pretty text-base leading-8 text-stone-300 sm:text-lg">
-              No wall of lore. No crowded menu. Enter the essentials and reveal the two systems
-              before deciding whether to unlock the full reading.
-            </p>
+        <div className="relative space-y-8 px-5 py-6 sm:px-8 sm:py-8 lg:px-10 lg:py-10">
+          <section className="mx-auto w-full max-w-[54rem]">
+            <HomeQuickIntake />
+          </section>
 
-            <div className="grid gap-3 sm:grid-cols-3">
+          <section className="mx-auto w-full max-w-[54rem] space-y-4">
+            <p className="inline-flex items-center gap-2 text-[10px] uppercase tracking-[0.38em] text-cyan-100/72">
+              <span className="h-px w-5 bg-gradient-to-r from-cyan-200/10 to-cyan-200/75" />
+              Full ritual intake
+            </p>
+            <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
               {[
-                ["Live Gate", "Open now"],
-                ["Input", "Name / date"],
-                ["Output", "2 previews"],
-              ].map(([label, value]) => (
+                "One field. One breath.",
+                "Signal first. Explanation second.",
+                "Birth time and city stay ready here.",
+                "Everything routes from the same base profile.",
+              ].map((item) => (
                 <div
-                  key={label}
-                  className="rounded-2xl border border-white/10 bg-black/20 px-4 py-4"
+                  key={item}
+                  className="rounded-2xl border border-white/8 bg-[linear-gradient(180deg,rgba(7,10,18,0.3),rgba(7,10,18,0.12))] px-4 py-3 text-sm text-stone-300 backdrop-blur-sm"
                 >
-                  <p className="font-mono text-[11px] uppercase tracking-[0.24em] text-stone-400">
-                    {label}
-                  </p>
-                  <p className="mt-3 text-balance font-serif text-2xl text-stone-50">{value}</p>
+                  {item}
                 </div>
               ))}
             </div>
-
-            <div className="flex flex-wrap gap-3 text-sm text-stone-300">
-              <Link
-                href="/divination"
-                className="rounded-full border border-white/10 px-4 py-2 transition hover:border-cyan-200/25 hover:bg-white/8"
-              >
-                Explore the gates
-              </Link>
-              <Link
-                href="/report/demo-report?email=ritual%40ood.aura"
-                className="rounded-full border border-white/10 px-4 py-2 transition hover:border-cyan-200/25 hover:bg-white/8"
-              >
-                View a sample artifact
-              </Link>
-            </div>
-          </div>
-
-          <QuickIntake />
+          </section>
         </div>
-      </section>
-
-      <section className="grid gap-4 md:grid-cols-3">
-        {[
-          ["Signal", "A fast reading opens first."],
-          ["Archive", "The wider universe appears after the omen."],
-          ["Depth", "Full ritual paths stay ready when you want more."],
-        ].map(([label, text]) => (
-          <div
-            key={label}
-            className="rounded-[28px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] p-5"
-          >
-            <p className="font-mono text-[11px] uppercase tracking-[0.26em] text-stone-400">
-              {label}
-            </p>
-            <p className="mt-3 text-balance font-serif text-3xl text-stone-50">{text}</p>
-          </div>
-        ))}
       </section>
     </Shell>
   );

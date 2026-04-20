@@ -11,10 +11,10 @@ export function NavPill(props: {
     <Link
       href={props.href}
       className={cn(
-        "rounded-full border px-4 py-2 text-sm transition backdrop-blur-sm",
+        "rounded-full border px-4 py-2 text-sm transition backdrop-blur-md",
         props.active
-          ? "border-amber-200/35 bg-amber-100/10 text-amber-50 shadow-[0_0_18px_rgba(255,221,168,0.16)]"
-          : "border-white/10 bg-white/[0.03] text-stone-300 hover:border-cyan-200/25 hover:bg-white/8 hover:text-stone-100",
+          ? "border-white/20 bg-[linear-gradient(135deg,rgba(255,125,105,0.22),rgba(138,224,228,0.2))] text-stone-50 shadow-[0_10px_30px_rgba(255,125,105,0.16)]"
+          : "border-white/8 bg-white/[0.035] text-stone-300 hover:border-white/16 hover:bg-[linear-gradient(135deg,rgba(255,125,105,0.1),rgba(138,224,228,0.12))] hover:text-stone-100",
       )}
     >
       {props.label}

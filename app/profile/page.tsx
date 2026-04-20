@@ -17,9 +17,9 @@ const profileModules = [
     href: "/report/demo-report?email=ritual%40ood.aura",
   },
   {
-    title: "My Collection",
-    body: "A future home for wallpapers, amulets, and saved visual artifacts.",
-    href: "/collection",
+    title: "Shop Extensions",
+    body: "Browse the paid readings and add-ons that extend your core report.",
+    href: "/shop",
   },
 ] as const;
 

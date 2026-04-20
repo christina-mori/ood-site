@@ -106,21 +106,22 @@ export function QuickIntake() {
 
   return (
     <form
-      className="relative overflow-hidden rounded-[32px] border border-white/10 bg-[linear-gradient(180deg,rgba(8,14,24,0.9),rgba(4,8,16,0.82))] p-5 shadow-[0_30px_120px_rgba(0,0,0,0.45)] sm:p-6"
+      className="relative overflow-hidden rounded-[34px] border border-white/10 bg-[linear-gradient(180deg,rgba(6,11,20,0.96),rgba(3,7,14,0.9))] p-5 shadow-[0_36px_140px_rgba(0,0,0,0.48)] sm:p-6"
       onSubmit={handleSubmit}
     >
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(111,232,255,0.14),transparent_32%),radial-gradient(circle_at_85%_15%,rgba(255,194,153,0.12),transparent_24%)]" />
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(111,232,255,0.16),transparent_32%),radial-gradient(circle_at_85%_15%,rgba(255,194,153,0.12),transparent_24%)]" />
       <div className="pointer-events-none absolute right-[-32px] top-[-24px] h-32 w-32 rounded-full border border-cyan-200/10" />
       <div className="pointer-events-none absolute right-10 top-10 h-10 w-10 rounded-full border border-amber-200/15" />
+      <div className="pointer-events-none absolute inset-x-8 top-0 h-px bg-[linear-gradient(90deg,transparent,rgba(255,255,255,0.3),transparent)]" />
 
       <div className="relative space-y-5">
         <div className="flex items-start justify-between gap-4">
           <div className="space-y-2">
             <p className="text-[11px] uppercase tracking-[0.34em] text-cyan-100/72">
-              Oracle Entry
+              Private Entry
             </p>
-            <h2 className="max-w-md text-balance font-serif text-4xl leading-[0.92] text-stone-50 sm:text-5xl">
-              Reveal your signal.
+            <h2 className="max-w-md text-balance font-serif text-4xl leading-[0.9] text-stone-50 sm:text-5xl">
+              Let the sign appear.
             </h2>
           </div>
           <div className="rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 font-mono text-[11px] uppercase tracking-[0.22em] text-stone-300">
@@ -157,25 +158,30 @@ export function QuickIntake() {
             </div>
           </div>
 
-          <div className="space-y-4 rounded-[28px] border border-white/10 bg-white/[0.03] p-4">
-            <div className="relative flex min-h-[180px] items-center justify-center overflow-hidden rounded-[24px] border border-white/10 bg-[radial-gradient(circle_at_center,rgba(111,232,255,0.12),transparent_36%),linear-gradient(180deg,rgba(255,255,255,0.04),rgba(255,255,255,0.01))]">
+          <div className="space-y-4 rounded-[28px] border border-white/10 bg-[linear-gradient(180deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02))] p-4">
+            <div className="relative flex min-h-[188px] items-center justify-center overflow-hidden rounded-[24px] border border-white/10 bg-[#10131b]">
+              <div
+                className="absolute inset-0 bg-cover bg-center opacity-72"
+                style={{ backgroundImage: 'url(/first-opening-bg.jpg)' }}
+              />
+              <div className="absolute inset-0 bg-[linear-gradient(180deg,rgba(8,12,20,0.18),rgba(8,12,20,0.68))]" />
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(111,232,255,0.16),transparent_38%)]" />
               <div className="absolute h-44 w-44 rounded-full border border-cyan-200/20 motion-safe:animate-[orbitSpin_18s_linear_infinite]" />
               <div className="absolute h-32 w-32 rounded-full border border-pink-200/15 motion-safe:animate-[orbitSpin_12s_linear_infinite_reverse]" />
               <div className="absolute h-20 w-20 rounded-full border border-amber-200/20" />
               <div className="z-10 text-center">
-                <p className="font-mono text-[11px] uppercase tracking-[0.28em] text-stone-400">
-                  Live Reading
+                <p className="font-mono text-[11px] uppercase tracking-[0.28em] text-stone-300/90">
+                  First Opening
                 </p>
-                <p className="mt-3 text-balance font-serif text-3xl text-stone-50">
-                  One omen. Three clues.
+                <p className="mt-3 text-balance font-serif text-3xl text-stone-50 drop-shadow-[0_6px_28px_rgba(0,0,0,0.42)]">
+                  One sign. Two mirrors.
                 </p>
               </div>
             </div>
 
-            <div className="grid gap-2 text-sm text-stone-300">
-              <p>Enter the essentials.</p>
-              <p>Reveal both systems.</p>
-              <p>Unlock the full reading later.</p>
+            <div className="grid gap-2 text-sm leading-6 text-stone-300">
+              <p>Name and birth date open the first layer.</p>
+              <p>The full reading waits after the preview.</p>
             </div>
           </div>
         </div>
@@ -240,15 +246,15 @@ export function QuickIntake() {
         ) : null}
 
         <div className="flex flex-wrap items-center justify-between gap-3">
-          <p className="text-xs uppercase tracking-[0.22em] text-stone-500">
-            Basic test first. Email unlock later.
+          <p className="text-xs uppercase tracking-[0.24em] text-stone-500">
+            Preview first. Full ritual later.
           </p>
           <button
             type="submit"
             disabled={!canSubmit}
-            className="inline-flex min-h-14 items-center rounded-full bg-stone-100 px-6 text-sm font-semibold text-stone-950 transition hover:bg-cyan-100 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-200/45 disabled:cursor-not-allowed disabled:opacity-55"
+            className="inline-flex min-h-[60px] items-center rounded-full border border-amber-100/45 bg-[linear-gradient(135deg,#fff7e3_0%,#ffe7b8_40%,#ffd37b_100%)] px-7 text-sm font-semibold uppercase tracking-[0.18em] text-stone-950 shadow-[0_18px_56px_rgba(255,211,123,0.24)] transition hover:-translate-y-0.5 hover:shadow-[0_24px_72px_rgba(255,211,123,0.3)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-100/70 disabled:cursor-not-allowed disabled:opacity-55"
           >
-            {submitting ? "Opening your previews…" : "Reveal Both Signals"}
+            {submitting ? "Opening the reading..." : "Enter the reading"}
           </button>
         </div>
       </div>

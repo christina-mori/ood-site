@@ -1,4 +1,5 @@
 import { promises as fs } from "node:fs";
+import os from "node:os";
 import path from "node:path";
 
 import { nanoid } from "nanoid";
@@ -20,7 +21,9 @@ type StoreShape = {
   reports: Record<string, ReportRecord>;
 };
 
-const dataDir = path.join(process.cwd(), "data");
+const dataDir = process.env.VERCEL
+  ? path.join(os.tmpdir(), "ood-data")
+  : path.join(process.cwd(), "data");
 const dataFile = path.join(dataDir, "generated", "mock-db.json");
 
 async function ensureStoreFile() {
@@ -227,8 +230,13 @@ export async function createOrUpdateReport(report: ReportRecord) {
     updatedAt: new Date().toISOString(),
   };
 
-  const order = store.orders[report.orderId];
-  if (report.orderId && order) {
+  if (report.orderId) {
+    const order = store.orders[report.orderId];
+    if (!order) {
+      await writeStore(store);
+      return store.reports[report.id];
+    }
+
     store.orders[report.orderId] = {
       ...order,
       reportId: report.id,

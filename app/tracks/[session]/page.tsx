@@ -50,14 +50,14 @@ export default async function TracksPage({ params }: TracksPageProps) {
             cta: "Unlock Career",
           },
           {
-            title: "Money Deep Dive",
-            body: "How your value pattern, exchange behavior, and timing distortions show up around money.",
-            cta: "Unlock Money",
+            title: "Personal Growth",
+            body: "How your inner loops, blind spots, and repeat reactions reveal the next stretch of your growth path.",
+            cta: "Unlock Growth",
           },
           {
-            title: "Healing & Personality Deep Dive",
-            body: "How the two systems explain your coping pattern, self-protection, and personality contradictions.",
-            cta: "Unlock Healing",
+            title: "Health",
+            body: "How the two systems describe your recovery rhythm, energy balance, and the habits that keep you steady.",
+            cta: "Unlock Health",
           },
         ].map((track) => (
           <RitualCard key={track.title} className="space-y-4">

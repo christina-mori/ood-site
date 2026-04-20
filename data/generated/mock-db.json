@@ -1395,6 +1395,1482 @@
       "email": "121221@12.com",
       "registeredAt": "2026-04-09T11:58:30.405Z",
       "crossoverReportId": "rpt_FXN_gWt3_npn"
+    },
+    "sess_c0cBRD14idrL": {
+      "id": "sess_c0cBRD14idrL",
+      "createdAt": "2026-04-10T07:31:37.462Z",
+      "updatedAt": "2026-04-10T07:31:37.462Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_zSfg5CL03elo": {
+      "id": "sess_zSfg5CL03elo",
+      "createdAt": "2026-04-10T07:31:41.196Z",
+      "updatedAt": "2026-04-10T07:31:41.196Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_wMbcKATMHwCQ": {
+      "id": "sess_wMbcKATMHwCQ",
+      "createdAt": "2026-04-10T07:31:42.157Z",
+      "updatedAt": "2026-04-10T07:31:42.157Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_rjLc0bzIfj2P": {
+      "id": "sess_rjLc0bzIfj2P",
+      "createdAt": "2026-04-10T07:31:44.722Z",
+      "updatedAt": "2026-04-10T07:31:44.722Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_tmsX_6c9F-AM": {
+      "id": "sess_tmsX_6c9F-AM",
+      "createdAt": "2026-04-10T07:31:47.398Z",
+      "updatedAt": "2026-04-10T07:31:47.398Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_nQDq4Grfbug2": {
+      "id": "sess_nQDq4Grfbug2",
+      "createdAt": "2026-04-10T07:31:53.854Z",
+      "updatedAt": "2026-04-10T07:31:53.854Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_tigjH7Gfwybi": {
+      "id": "sess_tigjH7Gfwybi",
+      "createdAt": "2026-04-10T07:32:04.053Z",
+      "updatedAt": "2026-04-10T07:32:04.053Z",
+      "name": "Aster",
+      "birthDate": "1990-03-13",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1990-03-13",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 47,
+          "wood": 85,
+          "water": 86,
+          "fire": 64,
+          "earth": 82,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "wood",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. wood helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while wood quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Solar Ascent",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward wood, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as future-facing, restless, and ready to evolve.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when wood stops hiding behind metal.",
+          "graphicLabel": "WOOD star"
+        }
+      }
+    },
+    "sess_LtQucFE84V_7": {
+      "id": "sess_LtQucFE84V_7",
+      "createdAt": "2026-04-10T07:33:56.499Z",
+      "updatedAt": "2026-04-10T07:33:56.499Z",
+      "name": "Aster",
+      "birthDate": "1998-02-17",
+      "birthTime": "16:33",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1998-02-17",
+          "birthTime": "16:33",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "fire",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Soft Strategist",
+        "elementDistribution": {
+          "metal": 70,
+          "wood": 33,
+          "water": 53,
+          "fire": 72,
+          "earth": 44,
+          "archetype": "The Soft Strategist",
+          "palette": {
+            "base": "#220711",
+            "accent": "#ff4db8",
+            "glow": "#ffc3ea"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "fire",
+          "weakestElement": "wood",
+          "supportElement": "metal",
+          "seasonalTone": "winter",
+          "dayPhase": "day",
+          "tensionPair": [
+            "fire",
+            "wood"
+          ]
+        },
+        "todaySignal": "Today favors one immediate move. metal can turn raw heat into usable momentum if you act before the field cools.",
+        "coreConclusion": "Your field leads with fire while wood lowers your tolerance for delay. The profile is hot, direct, and ready to move, but it works best when that heat has a target.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You usually know what you want, but when wood falls behind, your heat can outrun the patience that would have made it cleaner."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "The brightest force in your profile right now is action heat, with metal helping momentum build once the direction is right."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Start with goal alignment or fortune, then use a card draw as an immediate amplifier."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "Your magnetism and expressive drive are both strong, so this track should give quick feedback."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps separate impulse from real direction."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Your profile is especially suited to making a small upgrade move today, not someday."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Right now your energy is best used by aiming it at one concrete goal."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Radiant Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "winter amplifies your fire lane, while wood creates the hidden friction.",
+          "detailSummary": "Your eastern pattern burns bright when attention and momentum move in the same direction.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when fire leads without overcorrecting for wood.",
+          "graphicLabel": "FIRE palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Western Star",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward metal, while wood creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as lucid, distant, and strategically magnetic.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when metal stops hiding behind wood.",
+          "graphicLabel": "METAL star"
+        }
+      }
+    },
+    "sess_fTMI-HmPRGL9": {
+      "id": "sess_fTMI-HmPRGL9",
+      "createdAt": "2026-04-10T08:02:00.850Z",
+      "updatedAt": "2026-04-10T08:02:00.850Z",
+      "name": "Aster",
+      "birthDate": "1998-03-17",
+      "birthTime": "17:03",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1998-03-17",
+          "birthTime": "17:03",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "metal",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 80,
+          "wood": 59,
+          "water": 51,
+          "fire": 50,
+          "earth": 63,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#111827",
+            "accent": "#d3d7df",
+            "glow": "#fafafa"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "metal",
+          "weakestElement": "fire",
+          "supportElement": "earth",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "metal",
+            "fire"
+          ]
+        },
+        "todaySignal": "Today favors one clean decision. earth is strong enough to help the choice land if you stop dragging it through ambiguity.",
+        "coreConclusion": "Your field leads with metal while fire stays quieter underneath it. This makes the profile feel less emotional than precise, but the real work is letting sharp judgment stay connected to human timing.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You edit yourself before you express yourself, especially when fire energy is running low and softness feels less available."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sharp judgment, with earth acting like the hidden support beam behind it."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Start with goal alignment or personal growth before you spend time on broad fortune prompts."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "Your relationship judgment is sharp, but your emotional expression stays compressed. This track is most likely to feel uncannily accurate."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "What you need now is not more information but a clearer look at what you keep cutting away from yourself."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Your profile responds better to precise timing cues than generic encouragement."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Your execution and judgment are clarifying. Real-world momentum is worth prioritizing."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Eastern Destiny",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your metal lane, while fire creates the hidden friction.",
+          "detailSummary": "Your eastern pattern is sharp, selective, and better at cutting through noise than performing softness.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when metal leads without overcorrecting for fire.",
+          "graphicLabel": "METAL palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Saturn Veil",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward earth, while fire creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as composed, anchored, and privately durable.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when earth stops hiding behind fire.",
+          "graphicLabel": "EARTH star"
+        }
+      }
+    },
+    "sess_SkyaoE1trbD-": {
+      "id": "sess_SkyaoE1trbD-",
+      "createdAt": "2026-04-10T09:13:12.901Z",
+      "updatedAt": "2026-04-10T09:13:12.901Z",
+      "name": "Aster",
+      "birthDate": "1998-02-17",
+      "birthTime": "17:14",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1998-02-17",
+          "birthTime": "17:14",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "metal",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Soft Strategist",
+        "elementDistribution": {
+          "metal": 81,
+          "wood": 34,
+          "water": 71,
+          "fire": 76,
+          "earth": 54,
+          "archetype": "The Soft Strategist",
+          "palette": {
+            "base": "#111827",
+            "accent": "#d3d7df",
+            "glow": "#fafafa"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "metal",
+          "weakestElement": "wood",
+          "supportElement": "fire",
+          "seasonalTone": "winter",
+          "dayPhase": "day",
+          "tensionPair": [
+            "metal",
+            "wood"
+          ]
+        },
+        "todaySignal": "Today favors one clean decision. fire is strong enough to help the choice land if you stop dragging it through ambiguity.",
+        "coreConclusion": "Your field leads with metal while wood stays quieter underneath it. This makes the profile feel less emotional than precise, but the real work is letting sharp judgment stay connected to human timing.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You edit yourself before you express yourself, especially when wood energy is running low and softness feels less available."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sharp judgment, with fire acting like the hidden support beam behind it."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Start with goal alignment or personal growth before you spend time on broad fortune prompts."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "Your relationship judgment is sharp, but your emotional expression stays compressed. This track is most likely to feel uncannily accurate."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "What you need now is not more information but a clearer look at what you keep cutting away from yourself."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Your profile responds better to precise timing cues than generic encouragement."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Your execution and judgment are clarifying. Real-world momentum is worth prioritizing."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Eastern Destiny",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "winter amplifies your metal lane, while wood creates the hidden friction.",
+          "detailSummary": "Your eastern pattern is sharp, selective, and better at cutting through noise than performing softness.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when metal leads without overcorrecting for wood.",
+          "graphicLabel": "METAL palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Flare Chart",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward fire, while wood creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as visible, expressive, and strongest when it stops hesitating.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when fire stops hiding behind wood.",
+          "graphicLabel": "FIRE star"
+        }
+      }
+    },
+    "sess_9ENnwk0lGEMW": {
+      "id": "sess_9ENnwk0lGEMW",
+      "createdAt": "2026-04-10T09:40:26.462Z",
+      "updatedAt": "2026-04-10T09:40:26.462Z",
+      "name": "Aster",
+      "birthDate": "1998-02-17",
+      "birthTime": "18:41",
+      "birthCity": "Seoul",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1998-02-17",
+          "birthTime": "18:41",
+          "birthLocation": "Seoul"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "water",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Luminous Operator",
+        "elementDistribution": {
+          "metal": 51,
+          "wood": 61,
+          "water": 85,
+          "fire": 57,
+          "earth": 80,
+          "archetype": "The Luminous Operator",
+          "palette": {
+            "base": "#061229",
+            "accent": "#57ccff",
+            "glow": "#9ae6ff"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "water",
+          "weakestElement": "metal",
+          "supportElement": "earth",
+          "seasonalTone": "winter",
+          "dayPhase": "dusk",
+          "tensionPair": [
+            "water",
+            "metal"
+          ]
+        },
+        "todaySignal": "Today favors reading emotional and timing signals first. earth helps you respond without drowning in subtlety.",
+        "coreConclusion": "Your field leads with water while metal keeps the edge of your sensitivity exposed. Emotional and relational signals will arrive early for you, so your power depends on reading them cleanly rather than resisting them.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You feel everything in fine detail, and when metal dips too low, emotional weather can flood the whole field."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sensitivity, while earth quietly helps timing cues become usable instead of overwhelming."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Open relationship or fortune first, then decide whether a card draw should become today's extra signal."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "You are most attuned to emotional and relational signals, so this track is likely to hit first."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "The growth track helps explain why you often end up feeling more than other people notice."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Today's fortune is more about detail alerts and emotional blind-spot avoidance."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Goal alignment helps you turn intuition into gentler but sustained motion."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Moon Palace",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "winter amplifies your water lane, while metal creates the hidden friction.",
+          "detailSummary": "Your eastern pattern listens before it acts. Subtle shifts reach you earlier than they reach most people.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when water leads without overcorrecting for metal.",
+          "graphicLabel": "WATER palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Saturn Veil",
+          "visualKey": "western-hexagram-star",
+          "teaser": "dusk timing pulls toward earth, while metal creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as composed, anchored, and privately durable.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when earth stops hiding behind metal.",
+          "graphicLabel": "EARTH star"
+        }
+      }
+    },
+    "sess_UEbWwAGGtOhb": {
+      "id": "sess_UEbWwAGGtOhb",
+      "createdAt": "2026-04-15T07:44:25.698Z",
+      "updatedAt": "2026-04-15T07:44:25.698Z",
+      "name": "Aster",
+      "birthDate": "1999-03-17",
+      "birthTime": "16:41",
+      "birthCity": "Shanghai",
+      "stage": "preview_unlocked",
+      "consentEntertainmentDisclaimer": true,
+      "baseProfile": {
+        "identity": {
+          "name": "Aster",
+          "birthday": "1999-03-17",
+          "birthTime": "16:41",
+          "birthLocation": "Shanghai"
+        },
+        "chartType": "hexagram",
+        "chartVisual": {
+          "chartType": "hexagram",
+          "dominantElement": "metal",
+          "ringOrder": [
+            "metal",
+            "wood",
+            "water",
+            "fire",
+            "earth"
+          ],
+          "glowLabel": "Aster's live pattern"
+        },
+        "coreType": "The Velvet Instigator",
+        "elementDistribution": {
+          "metal": 87,
+          "wood": 66,
+          "water": 58,
+          "fire": 57,
+          "earth": 70,
+          "archetype": "The Velvet Instigator",
+          "palette": {
+            "base": "#111827",
+            "accent": "#d3d7df",
+            "glow": "#fafafa"
+          }
+        },
+        "profileRationale": {
+          "dominantElement": "metal",
+          "weakestElement": "fire",
+          "supportElement": "earth",
+          "seasonalTone": "spring",
+          "dayPhase": "day",
+          "tensionPair": [
+            "metal",
+            "fire"
+          ]
+        },
+        "todaySignal": "Today favors one clean decision. earth is strong enough to help the choice land if you stop dragging it through ambiguity.",
+        "coreConclusion": "Your field leads with metal while fire stays quieter underneath it. This makes the profile feel less emotional than precise, but the real work is letting sharp judgment stay connected to human timing.",
+        "topInsights": [
+          {
+            "title": "Where you tend to get stuck",
+            "body": "You edit yourself before you express yourself, especially when fire energy is running low and softness feels less available."
+          },
+          {
+            "title": "The signal worth trusting",
+            "body": "Aster's strongest signal right now is sharp judgment, with earth acting like the hidden support beam behind it."
+          },
+          {
+            "title": "The best next direction",
+            "body": "Start with goal alignment or personal growth before you spend time on broad fortune prompts."
+          }
+        ],
+        "recommendedTracks": [
+          {
+            "kind": "fandom-relationship",
+            "title": "Relationship and attraction",
+            "preview": "See how you read connection, how you move closer, and what emotional tension is most active right now.",
+            "cta": "Open relationship track",
+            "why": "Your relationship judgment is sharp, but your emotional expression stays compressed. This track is most likely to feel uncannily accurate."
+          },
+          {
+            "kind": "personal-growth",
+            "title": "Personal growth",
+            "preview": "Find the recurring behavior loop most likely to stall you and the inner switch most worth adjusting.",
+            "cta": "Open growth track",
+            "why": "What you need now is not more information but a clearer look at what you keep cutting away from yourself."
+          },
+          {
+            "kind": "fortune-upgrade",
+            "title": "Fortune upgrade",
+            "preview": "Turn today's signal into a practical direction, a caution, and a move that strengthens the day.",
+            "cta": "Open fortune track",
+            "why": "Your profile responds better to precise timing cues than generic encouragement."
+          },
+          {
+            "kind": "goal-alignment",
+            "title": "Goal alignment",
+            "preview": "Map the profile's momentum, friction, and timing into a concrete way of moving real goals forward.",
+            "cta": "Open goal track",
+            "why": "Your execution and judgment are clarifying. Real-world momentum is worth prioritizing."
+          }
+        ]
+      },
+      "branchPreview": {
+        "eastern": {
+          "system": "eastern",
+          "title": "Eastern Destiny",
+          "visualKey": "eastern-orbit-grid",
+          "teaser": "spring amplifies your metal lane, while fire creates the hidden friction.",
+          "detailSummary": "Your eastern pattern is sharp, selective, and better at cutting through noise than performing softness.",
+          "personalityHook": "Your eastern reading says your structure becomes strongest when metal leads without overcorrecting for fire.",
+          "graphicLabel": "METAL palace"
+        },
+        "western": {
+          "system": "western",
+          "title": "Saturn Veil",
+          "visualKey": "western-hexagram-star",
+          "teaser": "day timing pulls toward earth, while fire creates the subtle contradiction.",
+          "detailSummary": "Your western chart reads as composed, anchored, and privately durable.",
+          "personalityHook": "Your western reading says the public version of you becomes clearer when earth stops hiding behind fire.",
+          "graphicLabel": "EARTH star"
+        }
+      }
     }
   },
   "orders": {

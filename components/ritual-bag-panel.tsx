@@ -81,10 +81,10 @@ export function RitualBagPanel(props: {
             Checkout live ritual
           </Link>
           <Link
-            href={props.prototypeHref ?? "/collection"}
+            href={props.prototypeHref ?? "/shop"}
             className="rounded-full border border-white/10 px-4 py-2 text-sm text-stone-100 transition hover:bg-white/8"
           >
-            Open prototype goods
+            Open shop
           </Link>
           <button
             type="button"

@@ -146,15 +146,15 @@ export function ProfileCenterClient() {
             </div>
           ) : (
             <p className="text-sm text-stone-300">
-              No saved amulet yet. Generate one in the collection lab to make this center feel alive.
+              No saved add-on yet. Visit the shop to stage new report extensions.
             </p>
           )}
           <div className="flex flex-wrap gap-3">
             <Link
-              href="/collection"
+              href="/shop"
               className="rounded-full border border-white/10 px-4 py-2 text-sm text-stone-100 transition hover:bg-white/8"
             >
-              Open Collection Lab
+              Open Shop
             </Link>
             <Link
               href="/me/history?email=ritual%40ood.aura"
