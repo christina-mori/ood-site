@@ -113,6 +113,15 @@ export const shopProducts: ProductCard[] = [
     live: true,
   },
   {
+    slug: "all-field-bundle",
+    title: "All-Field Bundle",
+    type: "bundle",
+    priceLabel: "$8.99",
+    description: "All four deep-dive reports in one archive — Relationship, Career, Personal Growth, and Health — at 25% off the per-field price.",
+    mood: "complete archive / cross-field synthesis / deepest value",
+    live: true,
+  },
+  {
     slug: "crossover-bundle",
     title: "Cross-Over Bundle",
     type: "bundle",

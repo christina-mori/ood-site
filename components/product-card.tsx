@@ -85,7 +85,7 @@ export function ProductCard({ product }: { product: ProductCardType }) {
 
       <div className="mt-auto pt-1">
         <Link
-          href={`/shop/${product.slug}`}
+          href={product.type === "report" ? `/shop/${product.slug}` : `/shop?product=${product.slug}`}
           className="inline-flex rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-stone-100 transition hover:border-white/16 hover:bg-white/[0.08]"
         >
           View Details
