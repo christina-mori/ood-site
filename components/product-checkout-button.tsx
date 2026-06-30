@@ -21,7 +21,8 @@ export function ProductCheckoutButton(props: { product: string }) {
         throw new Error(data.error ?? "Checkout could not start.");
       }
 
-      const data = (await response.json()) as { checkoutUrl: string };
+      const data = (await response.json()) as { orderId: string; checkoutUrl: string };
+      document.cookie = `ood_order_id=${data.orderId};path=/;max-age=86400;samesite=lax`;
       window.location.href = data.checkoutUrl;
     } catch (nextError) {
       setError(nextError instanceof Error ? nextError.message : "Checkout failed");

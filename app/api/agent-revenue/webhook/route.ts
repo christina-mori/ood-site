@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 import { DEEP_DIVE_SKUS, getAgentRevenueWebhookSecrets, skuCodeForProductSlug } from "@/lib/constants";
 import { generateReportFromConfirmedPayment } from "@/lib/server/generate-report";
-import { createOrder } from "@/lib/server/store";
+import { createOrder, getOrder, updateOrder } from "@/lib/server/store";
 
 function verifySignature(rawBody: string, signatureHeader: string, secrets: string[]): boolean {
   if (secrets.length === 0) return false;
@@ -68,15 +68,27 @@ export async function POST(request: Request) {
     return NextResponse.json({ received: true, error: "Unknown product" }, { status: 400 });
   }
 
-  const order = await createOrder({
-    email: event.data.customer_email ?? "",
-    stripeSessionId: event.data.payment_id ?? `link_${event.data.link_id}_${Date.now()}`,
-    paymentStatus: "paid",
-    sku,
-    reportKind: "deep_dive",
-  });
+  const existingOrderId = event.data.metadata?.order_id;
+  const existingOrder = existingOrderId ? await getOrder(existingOrderId) : null;
 
-  if (order.intakeSessionId) {
+  let order;
+  if (existingOrder) {
+    order = await updateOrder(existingOrder.id, {
+      paymentStatus: "paid",
+      stripeSessionId: event.data.payment_id ?? existingOrder.stripeSessionId,
+      email: event.data.customer_email ?? existingOrder.email,
+    });
+  } else {
+    order = await createOrder({
+      email: event.data.customer_email ?? "",
+      stripeSessionId: event.data.payment_id ?? `link_${event.data.link_id}_${Date.now()}`,
+      paymentStatus: "paid",
+      sku,
+      reportKind: "deep_dive",
+    });
+  }
+
+  if (order?.intakeSessionId) {
     try {
       await generateReportFromConfirmedPayment(order.id);
     } catch (error) {
@@ -84,5 +96,5 @@ export async function POST(request: Request) {
     }
   }
 
-  return NextResponse.json({ received: true, orderId: order.id });
+  return NextResponse.json({ received: true, orderId: order?.id });
 }

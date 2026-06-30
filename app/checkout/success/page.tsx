@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { cookies } from "next/headers";
 
 import { ReportStatusPoller } from "@/components/report-status-poller";
 import { RitualCard } from "@/components/ritual-card";
@@ -20,7 +21,10 @@ type CheckoutSuccessPageProps = {
 export default async function CheckoutSuccessPage({
   searchParams,
 }: CheckoutSuccessPageProps) {
-  const { order_id: orderId, mock, product } = await searchParams;
+  const { order_id: queryOrderId, mock, product } = await searchParams;
+  const cookieStore = await cookies();
+  const cookieOrderId = cookieStore.get("ood_order_id")?.value;
+  const orderId = queryOrderId ?? cookieOrderId;
   const order = orderId ? await getOrder(orderId) : null;
   const needsIntake = Boolean(order && !order.intakeSessionId);
   let report = order?.reportId ? await getReport(order.reportId) : null;
