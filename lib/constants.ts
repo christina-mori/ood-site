@@ -82,8 +82,9 @@ export const AGENT_REVENUE_PAYMENT_LINKS: Record<string, string> = {
 };
 
 export function getAgentRevenueWebhookSecrets(): string[] {
-  const secret = process.env.AGENT_REVENUE_WEBHOOK_SECRET;
-  return secret ? [secret] : [];
+  const raw = process.env.AGENT_REVENUE_WEBHOOK_SECRETS ?? process.env.AGENT_REVENUE_WEBHOOK_SECRET;
+  if (!raw) return [];
+  return raw.split(",").map((s) => s.trim()).filter(Boolean);
 }
 
 export function skuCodeForProductSlug(product?: string) {
