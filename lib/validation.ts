@@ -23,6 +23,7 @@ export const checkoutSchema = z.object({
     "crossover-career",
     "crossover-money",
     "crossover-healing",
+    "crossover-all-field-bundle",
     "crossover-bundle",
     "signal-wallpaper",
   ]),

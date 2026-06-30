@@ -81,6 +81,10 @@ export async function generateReportFromOrder(orderId: string) {
   const order = await getOrder(orderId);
   if (!order) throw new Error("Order not found");
 
+  if (order.paymentStatus !== "paid") {
+    throw new Error("Order payment not confirmed");
+  }
+
   const session = await getSession(order.intakeSessionId);
   if (!session) throw new Error("Intake session not found");
 
@@ -162,4 +166,20 @@ export async function generateReportFromOrder(orderId: string) {
 
     return failed;
   }
+}
+
+export async function generateReportFromConfirmedPayment(orderId: string) {
+  const order = await getOrder(orderId);
+  if (!order) throw new Error("Order not found");
+
+  await updateOrder(order.id, { paymentStatus: "paid" });
+
+  if (!order.intakeSessionId) {
+    return { id: "", status: "not_started" as const, error: "Order has no intake session yet" };
+  }
+
+  const session = await getSession(order.intakeSessionId);
+  if (!session) throw new Error("Intake session not found");
+
+  return generateReportFromOrder(orderId);
 }

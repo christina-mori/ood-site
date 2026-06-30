@@ -1,7 +1,16 @@
 import Link from "next/link";
 
+import { ProductCheckoutButton } from "@/components/product-checkout-button";
 import { RitualCard } from "@/components/ritual-card";
 import { type ProductCard as ProductCardType } from "@/lib/site-content";
+
+const PURCHASABLE_SLUGS = [
+  "relationship-deep-dive",
+  "career-deep-dive",
+  "money-deep-dive",
+  "healing-deep-dive",
+  "all-field-bundle",
+];
 
 function StandardCover({ slug }: { slug: string }) {
   const coverClass = slug.includes("wealth")
@@ -83,13 +92,16 @@ export function ProductCard({ product }: { product: ProductCardType }) {
 
       <p className="text-[15px] leading-7 text-stone-300">{product.description}</p>
 
-      <div className="mt-auto pt-1">
+      <div className="mt-auto flex items-center gap-3 pt-1">
         <Link
           href={product.type === "report" ? `/shop/${product.slug}` : `/shop?product=${product.slug}`}
           className="inline-flex rounded-full border border-white/10 bg-white/[0.03] px-4 py-2 text-sm text-stone-100 transition hover:border-white/16 hover:bg-white/[0.08]"
         >
           View Details
         </Link>
+        {PURCHASABLE_SLUGS.includes(product.slug) ? (
+          <ProductCheckoutButton product={product.slug} />
+        ) : null}
       </div>
     </RitualCard>
   );

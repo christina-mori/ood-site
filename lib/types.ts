@@ -127,6 +127,7 @@ export type SKU = {
     | "crossover-career"
     | "crossover-money"
     | "crossover-healing"
+    | "crossover-all-field-bundle"
     | "crossover-bundle"
     | "signal-wallpaper";
   title: string;

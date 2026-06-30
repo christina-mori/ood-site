@@ -216,6 +216,47 @@ export async function getOrderByStripeSessionId(stripeSessionId: string) {
   );
 }
 
+export async function findUnclaimedOrdersByEmail(email: string) {
+  const store = await readStore();
+  return Object.values(store.orders)
+    .filter(
+      (order) =>
+        order.email?.toLowerCase() === email.toLowerCase() &&
+        order.paymentStatus === "paid" &&
+        !order.intakeSessionId,
+    )
+    .sort((a, b) => (a.createdAt < b.createdAt ? 1 : -1));
+}
+
+export async function attachOrderToSession(
+  orderId: string,
+  input: { intakeSessionId: string; email: string },
+) {
+  const store = await readStore();
+  const order = store.orders[orderId];
+  const session = store.sessions[input.intakeSessionId];
+  if (!order || !session) return null;
+
+  const nextOrder: Order = {
+    ...order,
+    intakeSessionId: input.intakeSessionId,
+    email: input.email,
+    updatedAt: new Date().toISOString(),
+  };
+
+  store.orders[orderId] = nextOrder;
+  store.sessions[input.intakeSessionId] = {
+    ...session,
+    email: input.email,
+    latestPaidOrderId: order.id,
+    stage: "deep_dive_started",
+    updatedAt: new Date().toISOString(),
+  };
+
+  await writeStore(store);
+  return nextOrder;
+}
+
 export async function listOrdersByEmail(email: string) {
   const store = await readStore();
   return Object.values(store.orders)
