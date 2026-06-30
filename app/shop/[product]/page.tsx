@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { ProductCheckoutButton } from "@/components/product-checkout-button";
 import { RitualCard } from "@/components/ritual-card";
 import { SectionLabel } from "@/components/section-label";
 import { Shell } from "@/components/shell";
@@ -113,12 +114,7 @@ export default async function SubReportPage({ params }: SubReportPageProps) {
           </div>
 
           <div className="flex flex-wrap items-center gap-4 pt-1">
-            <Link
-              href="/quiz"
-              className="inline-flex min-h-[56px] items-center rounded-full bg-stone-100 px-7 text-base font-semibold text-stone-950 shadow-[0_14px_36px_rgba(255,255,255,0.12)] transition hover:bg-cyan-100"
-            >
-              Unlock now
-            </Link>
+            <ProductCheckoutButton product={selected.slug} />
             <Link
               href="/"
               className="rounded-full border border-white/10 px-5 py-3 text-sm text-stone-100 transition hover:bg-white/8"
