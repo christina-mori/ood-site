@@ -187,7 +187,7 @@ export type IntakeSession = {
 
 export type Order = {
   id: string;
-  intakeSessionId: string;
+  intakeSessionId?: string;
   reportId?: string;
   email: string;
   sku: SKU;

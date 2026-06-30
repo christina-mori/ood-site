@@ -148,7 +148,7 @@ export async function getSession(sessionId: string) {
 }
 
 export async function createOrder(input: {
-  intakeSessionId: string;
+  intakeSessionId?: string;
   email: string;
   stripeSessionId: string;
   paymentStatus?: PaymentStatus;
@@ -171,9 +171,9 @@ export async function createOrder(input: {
   };
 
   store.orders[order.id] = order;
-  const session = store.sessions[input.intakeSessionId];
+  const session = input.intakeSessionId ? store.sessions[input.intakeSessionId] : null;
   if (session) {
-    store.sessions[input.intakeSessionId] = {
+    store.sessions[input.intakeSessionId!] = {
       ...session,
       email: input.email,
       latestPaidOrderId: order.id,
