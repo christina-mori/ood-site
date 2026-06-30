@@ -85,6 +85,10 @@ export async function generateReportFromOrder(orderId: string) {
     throw new Error("Order payment not confirmed");
   }
 
+  if (!order.intakeSessionId) {
+    throw new Error("Order has no intake session");
+  }
+
   const session = await getSession(order.intakeSessionId);
   if (!session) throw new Error("Intake session not found");
 
@@ -168,14 +172,14 @@ export async function generateReportFromOrder(orderId: string) {
   }
 }
 
-export async function generateReportFromConfirmedPayment(orderId: string) {
+export async function generateReportFromConfirmedPayment(orderId: string): Promise<ReportRecord | null> {
   const order = await getOrder(orderId);
   if (!order) throw new Error("Order not found");
 
   await updateOrder(order.id, { paymentStatus: "paid" });
 
   if (!order.intakeSessionId) {
-    return { id: "", status: "not_started" as const, error: "Order has no intake session yet" };
+    return null;
   }
 
   const session = await getSession(order.intakeSessionId);

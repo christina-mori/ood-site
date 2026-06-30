@@ -54,7 +54,7 @@ export async function POST(request: Request) {
     });
     try {
       const paidReport = await generateReportFromConfirmedPayment(order.id);
-      paidReportId = paidReport.id;
+      if (paidReport) paidReportId = paidReport.id;
     } catch (error) {
       console.error("Paid report generation failed for order", order.id, error);
     }

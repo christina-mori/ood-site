@@ -9,7 +9,7 @@ export async function getCheckoutContext(input: {
   const session =
     input.sessionId && !order
       ? await getSession(input.sessionId)
-      : order
+      : order?.intakeSessionId
         ? await getSession(order.intakeSessionId)
         : null;
   const report =
